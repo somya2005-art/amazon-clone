@@ -289,6 +289,48 @@ ul p{
     justify-content: center;
 }
 
+* {
+  margin: 0;
+  font-family: Arial;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 400px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navsearch {
+    width: 100%;
+    min-width: 0;
+    margin-top: 10px;
+  }
+
+  .mainboxes {
+    flex-direction: column;
+    height: auto;
+    gap: 16px;
+  }
+
+  .box {
+    width: 95%;
+    margin: 0 auto 16px auto;
+  }
+
+  .herosection {
+    height: 200px;
+    background-position: center;
+  }
+
+  .herotext {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+}
+
 
 
 
